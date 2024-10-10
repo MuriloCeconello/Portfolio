@@ -8,8 +8,8 @@ function Header() {
             <nav className="font-Poppins flex fixed right-20 items-center">
                 <ul className="flex text-font-color-dark font-normal">
                     <li><a href="#sobre" className="ml-16 text-lg hover:text-neutral-300 transition duration-500">Sobre</a></li>
-                    <li><a href="#" className="ml-16 text-lg hover:text-neutral-300 transition duration-500">Projetos</a></li>
-                    <li><a href="#" className="ml-16 text-lg hover:text-neutral-300 transition duration-500">Certificados</a></li>
+                    <li><a href="#projetos" className="ml-16 text-lg hover:text-neutral-300 transition duration-500">Projetos</a></li>
+                    <li><a href="#certificados" className="ml-16 text-lg hover:text-neutral-300 transition duration-500">Certificados</a></li>
                 </ul>
             </nav>
         </header>

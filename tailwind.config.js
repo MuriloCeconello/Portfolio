@@ -13,8 +13,9 @@ export default {
       }
     },
     colors:{
-      'color1': 'rgb(67 85 133)',
-      'color2': 'rgb(54 48 98)',
+      'color1': '#435585',
+      'color2': '#363062',
+      'card-color': '#4e6299',
       'font-color-dark': 'rgb(186 199 235)',
       'black': '#000000',
       'white': '#ffffff',
