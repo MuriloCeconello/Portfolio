@@ -13,10 +13,12 @@ export default {
       }
     },
     colors:{
-      'color1': '#27538c',
-      'color2': '#3470bf',
+      'color1': 'rgb(67 85 133)',
+      'color2': 'rgb(54 48 98)',
+      'font-color-dark': 'rgb(186 199 235)',
       'black': '#000000',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'grey' : '#9997A6'
     }
   },
   plugins: [],
