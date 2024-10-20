@@ -37,11 +37,11 @@ function Main() {
                 <div className="flex justify-center">
                     <div className="flex flex-wrap justify-around gap-y-10 xl:w-10/12 2xl:w-8/12 min-[1230px]:w-10/12 max-[1400px]:w-10/12 min-[1463px]:w-8/12 min-[1809px]:w-7/12">
                         <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl"></div>
-                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl"></div>
-                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl"></div>
-                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl"></div>
-                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl"></div>
-                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl"></div>
+                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl max-md:hidden"></div>
+                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl max-md:hidden"></div>
+                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl max-md:hidden"></div>
+                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl max-md:hidden"></div>
+                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl max-md:hidden"></div>
                     </div>
                 </div>
             </section>
@@ -49,10 +49,10 @@ function Main() {
                 <h1 className="text-center text-lightmode-font-color dark:text-darkmode-font-color font-Chakra text-4xl font-bold">Certificados</h1>
                 <div className="flex justify-around mt-10 max-lg:flex-col max-lg:gap-y-10 max-lg:items-center lg:gap-x-5">
                     <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl"></div>
-                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl"></div>
-                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl"></div>
-                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl"></div>
-                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl"></div>
+                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl max-md:hidden"></div>
+                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl max-md:hidden"></div>
+                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl max-md:hidden"></div>
+                    <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-48 rounded-xl max-md:hidden"></div>
                 </div>
             </section>
         </main>
