@@ -1,4 +1,4 @@
-import Technology from "./Technology";
+import HardSkills from "./HardSkills";
 
 function Main() {
     return (
@@ -8,7 +8,7 @@ function Main() {
                     <h1 className="text-center font-Chakra font-bold text-5xl text-lightmode-font-color dark:text-darkmode-font-color max-sm:text-4xl">Olá! Me chamo Murilo </h1>
                     <h2 className="font-Poppins text-lightmode-font-color dark:text-darkmode-font-color text-xl max-xl:text-lg">Tenho 18 anos e iniciei minha trajetória no desenvolvimento aos 16. Atualmente, atuo como desenvolvedor front-end, mas pretendo me tornar um desenvolvedor full-stack. Meus hobbies incluem programar, ouvir música, jogar videogame e, ocasionalmente, cozinhar. Além disso, tenho o desejo de conhecer diversos países e aprender vários idiomas.</h2>
                 </div>
-                <img className="w-4/12 max-xl:hidden" src="images/dev.png" alt="Developer"/>
+                <img className="w-4/12 max-xl:hidden" src="images/dev.png" alt="Developer" />
             </section>
             <section id="sobre" className="bg-lightmode-background-default dark:bg-darkmode-background-default w-full p-10">
                 <h1 className="text-center text-4xl font-Chakra font-bold text-lightmode-font-color dark:text-darkmode-font-color pt-10 max-lg:pt-1">Sobre</h1>
@@ -22,9 +22,13 @@ function Main() {
                     </div>
                     <div>
                         <h1 className="text-2xl text-center font-Chakra font-semibold text-lightmode-font-color dark:text-darkmode-font-color mb-5">Hard Skills:</h1>
-                        <div className="flex justify-around gap-10 max-lg:gap-0">
-                        <Technology img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"} name="HTML5"/>
-                        <Technology img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"} name="CSS3"/>
+                        <div className="flex flex-col justify-around gap-10 max-lg:items-center max-lg:flex-wrap">
+                            <div className="flex gap-x-10">
+                                <HardSkills img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"} name="HTML5" />
+                                <HardSkills img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"} name="CSS3" />
+                                <HardSkills img={"images/react-original-wordmark.png"} name="React.js" />
+                                <HardSkills img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"} name="Tailwind CSS" />
+                            </div>
                         </div>
                     </div>
                 </div>
