@@ -8,7 +8,7 @@ export default {
     fontFamily: {
       'Salsa': ['Salsa', 'serif'],
       'Poppins': ['Poppins', 'sans-serif'],
-      'Chakra': ['Chakra Petch', 'sans-serif']
+      'Chakra': ['Chakra Petch', 'sans-serif'],
     },
 
     colors: {
@@ -27,7 +27,7 @@ export default {
       default: {
         'black': '#000000',
         'white': '#F2F2F2',
-        'grey': '#9997A6'
+        'grey': '#9997A6',
       }
     }
   },

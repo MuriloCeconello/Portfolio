@@ -1,3 +1,5 @@
+import Technology from "./Technology";
+
 function Main() {
     return (
         <main>
@@ -21,12 +23,8 @@ function Main() {
                     <div>
                         <h1 className="text-2xl text-center font-Chakra font-semibold text-lightmode-font-color dark:text-darkmode-font-color mb-5">Hard Skills:</h1>
                         <div className="flex justify-around gap-10 max-lg:gap-0">
-                            <div className="bg-lightmode-card-color dark:bg-darkmode-card-color hover:bg-default-white dark:hover:bg-default-grey hover:scale-105 hover:shadow-xl p-2 rounded-md transition duration-300">
-                                <img className="w-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="HTML5 logo" />
-                            </div>
-                            <div className="bg-lightmode-card-color dark:bg-darkmode-card-color hover:bg-default-white dark:hover:bg-default-grey hover:scale-105 hover:shadow-xl p-2 rounded-md transition duration-300">
-                                <img className="w-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="CSS3 logo" />
-                            </div>
+                        <Technology img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"} name="HTML5"/>
+                        <Technology img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"} name="CSS3"/>
                         </div>
                     </div>
                 </div>
