@@ -26,8 +26,6 @@ function Main() {
                             <div className="flex gap-x-10">
                                 <HardSkills img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"} name="HTML5" />
                                 <HardSkills img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"} name="CSS3" />
-                                <HardSkills img={"images/react-original-wordmark.png"} name="React.js" />
-                                <HardSkills img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"} name="Tailwind CSS" />
                             </div>
                         </div>
                     </div>
