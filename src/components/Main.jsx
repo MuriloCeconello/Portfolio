@@ -1,6 +1,7 @@
 import HardSkills from "./HardSkills";
 import MyProjects from "./MyProjects";
 import MyCertificates from "./MyCertificates";
+import ContactForm from "./ContactForm.jsx"
 
 function Main() {
     return (
@@ -63,6 +64,14 @@ function Main() {
                     <MyCertificates />
                     <MyCertificates />
                     <MyCertificates />
+                </div>
+            </section>
+            <section id="contato" className="flex flex-col items-center bg-lightmode-background-color-2 dark:bg-darkmode-background-default w-full p-20">
+            <h1 className="text-center text-lightmode-font-color dark:text-darkmode-font-color font-Chakra text-4xl font-bold">Contato</h1>
+                <div className="container pt-10">
+                    <div className="flex justify-center">
+                        <ContactForm />
+                    </div>
                 </div>
             </section>
         </main>
