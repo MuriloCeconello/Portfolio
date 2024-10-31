@@ -9,11 +9,10 @@ function Main() {
     let body = document.getElementById('body')
 
     const ContactMe = () => {
-        if (contact_form.style.display == 'flex') {
-            body.style.backgroundColor = 'red'
-            contact_form.style.display = 'none'
-        } else {
+        if (contact_form.style.display == 'none') {
             contact_form.style.display = 'flex'
+        } else {
+            contact_form.style.display = 'none'
         }
     }
 
