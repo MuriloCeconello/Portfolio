@@ -4,6 +4,27 @@ import MyCertificates from "./MyCertificates";
 import ContactForm from "./ContactForm.jsx"
 
 function Main() {
+
+    let contact_form = document.getElementById('contato')
+    let body = document.getElementById('body')
+
+    const ContactMe = () => {
+        if (contact_form.style.display == 'flex') {
+            body.style.backgroundColor = 'red'
+            contact_form.style.display = 'none'
+        } else {
+            contact_form.style.display = 'flex'
+        }
+    }
+
+    const CloseContactMe = () => {
+        if (contact_form.style.display == 'flex') {
+            contact_form.style.display = 'none'
+        } else {
+            contact_form.style.display = 'flex'
+        }
+    }
+
     return (
         <main>
             <section className="flex justify-around items-center bg-lightmode-background-color-2 dark:bg-darkmode-background-color-2 w-full h-screen p-10">
@@ -12,6 +33,9 @@ function Main() {
                     <h2 className="font-Poppins text-lightmode-font-color dark:text-darkmode-font-color text-xl max-xl:text-lg">Tenho 18 anos e iniciei minha trajetória no desenvolvimento
                         aos 16. Atualmente, atuo como desenvolvedor front-end, mas pretendo me tornar um desenvolvedor full-stack. Meus hobbies incluem programar, ouvir música, jogar videogame e,
                         ocasionalmente, cozinhar. Além disso, tenho o desejo de conhecer diversos países e aprender vários idiomas.</h2>
+                    <div className="pl-5 pt-5">
+                        <button className="border-2 border-lightmode-font-color dark:border-darkmode-font-color text-lightmode-font-color dark:text-darkmode-font-color p-2 font-Poppins rounded-lg hover:bg-lightmode-font-color hover:dark:bg-darkmode-font-color hover:text-lightmode-background-color-2 hover:dark:text-darkmode-background-color-2 trasintion duration-500" onClick={ContactMe}>Contate-Me</button>
+                    </div>
                 </div>
                 <img className="w-4/12 max-xl:hidden" src="images/dev.png" alt="Developer" />
             </section>
@@ -36,8 +60,8 @@ function Main() {
                     </div>
                 </div>
             </section>
-            <section id="projetos" className="w-full p-10 bg-default-white">
-                <h1 className="font-Chakra text-center font-bold text-4xl text-lightmode-font-color dark:text-default-black pt-10
+            <section id="projetos" className="w-full p-10 bg--white">
+                <h1 className="font-Chakra text-center font-bold text-4xl text-lightmode-font-color dark:text-black pt-10
                 mb-10">Projetos</h1>
                 <div className="flex justify-center">
                     <div className="flex flex-wrap justify-around gap-y-10 xl:w-10/12 2xl:w-8/12 min-[1230px]:w-10/12 max-[1400px]:w-10/12 min-[1463px]:w-8/12 min-[1809px]:w-7/12">
@@ -68,10 +92,13 @@ function Main() {
                     <MyCertificates />
                 </div>
             </section>
-            <section id="contato" className="flex flex-col items-center bg-lightmode-background-color-2 dark:bg-darkmode-background-default w-full p-20">
-                <h1 className="text-center text-lightmode-font-color dark:text-darkmode-font-color font-Chakra text-4xl font-bold">Contato</h1>
-                <div className="container pt-10">
-                    <div className="flex justify-center">
+            <section id="contato" className="absolute top-12 hidden h-screen justify-center items-center bg-blur-2xl w-full">
+                <div className="bg-lightmode-background-default dark:bg-darkmode-background-default rounded-3xl w-4/12">
+                    <div className="text-4xl relative text-lightmode-font-color dark:text-darkmode-font-color p-3 w-14 overflow-hidden">
+                        <i onClick={CloseContactMe} className="" class='bx bx-x'></i>
+                    </div>
+                    <h1 className="text-center text-lightmode-font-color dark:text-darkmode-font-color font-Chakra text-4xl font-bold">Contato</h1>
+                    <div className="flex flex-col justify-center">
                         <ContactForm />
                     </div>
                 </div>
