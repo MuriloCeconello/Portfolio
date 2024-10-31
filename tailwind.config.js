@@ -28,6 +28,8 @@ export default {
         'black': '#000000',
         'white': '#F2F2F2',
         'grey': '#9997A6',
+        'red': '#ff0000',
+        'green': '#008000'
       }
     }
   },

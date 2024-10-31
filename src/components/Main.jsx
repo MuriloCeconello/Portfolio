@@ -9,7 +9,9 @@ function Main() {
             <section className="flex justify-around items-center bg-lightmode-background-color-2 dark:bg-darkmode-background-color-2 w-full h-screen p-10">
                 <div className="text-justify w-4/12 max-lg:w-screen max-xl:w-7/12">
                     <h1 className="text-center font-Chakra font-bold text-5xl text-lightmode-font-color dark:text-darkmode-font-color max-sm:text-4xl">Olá! Me chamo Murilo </h1>
-                    <h2 className="font-Poppins text-lightmode-font-color dark:text-darkmode-font-color text-xl max-xl:text-lg">Tenho 18 anos e iniciei minha trajetória no desenvolvimento aos 16. Atualmente, atuo como desenvolvedor front-end, mas pretendo me tornar um desenvolvedor full-stack. Meus hobbies incluem programar, ouvir música, jogar videogame e, ocasionalmente, cozinhar. Além disso, tenho o desejo de conhecer diversos países e aprender vários idiomas.</h2>
+                    <h2 className="font-Poppins text-lightmode-font-color dark:text-darkmode-font-color text-xl max-xl:text-lg">Tenho 18 anos e iniciei minha trajetória no desenvolvimento
+                        aos 16. Atualmente, atuo como desenvolvedor front-end, mas pretendo me tornar um desenvolvedor full-stack. Meus hobbies incluem programar, ouvir música, jogar videogame e,
+                        ocasionalmente, cozinhar. Além disso, tenho o desejo de conhecer diversos países e aprender vários idiomas.</h2>
                 </div>
                 <img className="w-4/12 max-xl:hidden" src="images/dev.png" alt="Developer" />
             </section>
@@ -39,7 +41,7 @@ function Main() {
                 mb-10">Projetos</h1>
                 <div className="flex justify-center">
                     <div className="flex flex-wrap justify-around gap-y-10 xl:w-10/12 2xl:w-8/12 min-[1230px]:w-10/12 max-[1400px]:w-10/12 min-[1463px]:w-8/12 min-[1809px]:w-7/12">
-                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl hover:bg-opacity-70 transition ease duration-500 max-lg:hidden">
+                        <div className="bg-lightmode-card-color  dark:bg-darkmode-card-color w-72 h-56 rounded-xl hover:bg-opacity-70 transition ease duration-500">
                             <div className="flex flex-col items-center justify-center group/card visible group-hover/card:visible h-full font-Poppins gap-y-7">
                                 <div className="flex flex-col items-center text-lightmode-font-color dark:text-darkmode-background-color-2">
                                     <h3 className="invisible group-hover/card:visible text-lg">Nome do Projeto</h3>
@@ -67,7 +69,7 @@ function Main() {
                 </div>
             </section>
             <section id="contato" className="flex flex-col items-center bg-lightmode-background-color-2 dark:bg-darkmode-background-default w-full p-20">
-            <h1 className="text-center text-lightmode-font-color dark:text-darkmode-font-color font-Chakra text-4xl font-bold">Contato</h1>
+                <h1 className="text-center text-lightmode-font-color dark:text-darkmode-font-color font-Chakra text-4xl font-bold">Contato</h1>
                 <div className="container pt-10">
                     <div className="flex justify-center">
                         <ContactForm />
