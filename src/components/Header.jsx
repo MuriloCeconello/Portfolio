@@ -7,9 +7,9 @@ function Header() {
             </div>
             <nav className="font-Poppins fixed right-20 items-center max-md:hidden">
                 <ul className="flex text-lightmode-font-color dark:text-darkmode-font-color font-normal">
-                    <li><a href="#sobre" className="ml-10 text-lg transition duration-500">Sobre</a></li>
-                    <li><a href="#projetos" className="ml-10 text-lg transition duration-500">Projetos</a></li>
-                    <li><a href="#certificados" className="ml-10 text-lg transition duration-500">Certificados</a></li>
+                    <li className=" transition duration-300 hover:scale-110"><a href="#sobre" className="ml-10 text-base">Sobre</a></li>
+                    <li className=" transition duration-300 hover:scale-110"><a href="#projetos" className="ml-10 text-base">Projetos</a></li>
+                    <li className=" transition duration-300 hover:scale-110"><a href="#certificados" className="ml-10 text-base">Certificados</a></li>
                 </ul>
             </nav>
         </header>

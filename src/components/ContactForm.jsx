@@ -24,24 +24,24 @@ function ContactForm() {
   return (
     <form className=" p-6 rounded-lg font-Poppins">
       <div className="flex flex-row justify-around gap-x-1">
-        <input type="text" id="name" name="name" placeholder="Nome Completo:" required className="mt-1 w-full border rounded-3xl p-2"/>
-        <input type="email" id="email" name="email" placeholder="E-mail:" required className="mt-1 w-full border rounded-3xl p-2"/>
+        <input type="text" id="name" name="name" placeholder="Nome Completo:" required className="mt-1 w-full border rounded-3xl p-2" />
+        <input type="email" id="email" name="email" placeholder="E-mail:" required className="mt-1 w-full border rounded-3xl p-2" />
       </div>
       <div className="flex flex-row justify-around gap-x-1">
-        <input type="tel" id="phone" name="phone" placeholder="Telefone:" required className="mt-1 w-full rounded-3xl p-2"/>
+        <input type="tel" id="phone" name="phone" placeholder="Telefone:" required className="mt-1 w-full border rounded-3xl p-2" />
         <input type="text" id="cep" name="cep" placeholder="CEP:" required onChange={verificarCEP} className="mt-1 w-full border rounded-3xl p-2" />
         {cepErro &&
           <p className="text-red-700 pt-3 -ml-8 text-2xl"><abbr title="CEP Inválido"><i class='bx bxs-error-circle'></i></abbr></p>
         }
       </div>
       <div>
-        <input type="text" id="city" name="city" placeholder="Cidade:" required value={cidade} onChange={(e) => setCidade(e.target.value)} className="mt-1 w-full border rounded-3xl p-2"/>
-        <input type="text" id="street" name="street" placeholder="Rua:" required value={rua} onChange={(e) => setRua(e.target.value)} className="mt-1 w-full border rounded-3xl p-2"/>
+        <input type="text" id="city" name="city" placeholder="Cidade:" required value={cidade} onChange={(e) => setCidade(e.target.value)} className="mt-1 w-full border rounded-3xl p-2" />
+        <input type="text" id="street" name="street" placeholder="Rua:" required value={rua} onChange={(e) => setRua(e.target.value)} className="mt-1 w-full border rounded-3xl p-2" />
       </div>
 
       <div className="mt-4 mb-2">
         <label className="text-lightmode-font-color dark:text-darkmode-font-color" htmlFor="message">Mensagem:</label>
-        <textarea id="message" name="message" rows="4" required className="mt-1 w-full border border-gray-300 rounded-md p-2"/>
+        <textarea id="message" name="message" rows="4" required className="mt-1 w-full border border-gray-300 rounded-md p-2" />
       </div>
 
       <div className="flex justify-center">
